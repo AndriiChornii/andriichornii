@@ -1,4 +1,4 @@
-Header
+![Header](https://github.com/AndriiChornii/andriichornii/blob/main/assets/Andrii_Chornii_Action_Figure.JPEG)
 
 About me
 
