@@ -9,7 +9,7 @@ Gonna leave this part of code, cauze it was as example on the video, maybe thi c
   <img src="https://github.com/AndriiChornii/andriichornii/blob/main/assets/Andrii_Chornii_Action_Figure.JPEG" alt="Header" width="450"/>
 </a>
 
-## Languages and Tools
+## Technologies and Tools
 
 ![JIRA](https://img.shields.io/badge/JIRA-0C3B72?style=for-the-badge&logo=jira)
 ![Trello](https://img.shields.io/badge/Trello-0C65B4?style=for-the-badge&logo=Trello)
@@ -43,13 +43,13 @@ Gonna leave this part of code, cauze it was as example on the video, maybe thi c
 
 -->
 
-## Link to my CV
+### Link to my CV
 <p>
-<a target="_blank" href="https://drive.google.com/file/d/1i9ShOKaMe5Ad1DCOjcuiJfD9QJvaG_Rd/view?usp=sharing" target="_blank">
-<img target="_blank" src="https://github.com/AndriiChornii/andriichornii/blob/main/assets/%D0%97%D0%BD%D1%96%D0%BC%D0%BE%D0%BA%20%D0%B5%D0%BA%D1%80%D0%B0%D0%BD%D0%B0%202025-04-07%20%D0%BE%2020.28.58.png" alt="Header" width="100" /><br>CV A.Chornii QA Engineer</a>
+<a href="https://drive.google.com/file/d/1i9ShOKaMe5Ad1DCOjcuiJfD9QJvaG_Rd/view?usp=sharing" >
+<img src="https://github.com/AndriiChornii/andriichornii/blob/main/assets/%D0%97%D0%BD%D1%96%D0%BC%D0%BE%D0%BA%20%D0%B5%D0%BA%D1%80%D0%B0%D0%BD%D0%B0%202025-04-07%20%D0%BE%2020.28.58.png" alt="CV" width="100" /><br>CV A.Chornii QA Engineer</a>
 </p>
 
-## Contact With Me
+### Contact With Me
 
 [![Telegram](https://img.shields.io/badge/Telegram-white?style=for-the-badge&logo=Telegram)](https://t.me/ablack1)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-248CCC?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/andriy-chorniy-714555145)
