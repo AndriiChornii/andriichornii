@@ -45,4 +45,24 @@ Latest projects I worked on
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-248CCC?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/andriy-chorniy-714555145)
 [![Email](https://img.shields.io/badge/Email-white?style=for-the-badge&logo=Gmail)](mailto:a4ornii@gmail.com)
 
-<!-- &logoColor= -->
+<!-- Leave here a different style of stats for the future, maybe I gonna want to change it. The link to the theme author: https://github.com/anuraghazra/github-readme-stats
+
+[![Andrii's GitHub stats](https://github-readme-stats.vercel.app/api?username=andriichornii&show_icons=true&theme=cobalt&hide=contribs,prs,stars,issues)](https://github.com/andriichornii/github-readme-stats)
+
+[![Andrii's GitHub stats](https://github-readme-stats.vercel.app/api?username=andriichornii&show_icons=true&theme=highcontrast&hide=contribs,prs,stars,issues)](https://github.com/andriichornii/github-readme-stats)
+
+[![Andrii's GitHub stats](https://github-readme-stats.vercel.app/api?username=andriichornii&show_icons=true&theme=dark&hide=contribs,prs,stars,issues)](https://github.com/andriichornii/github-readme-stats)
+
+[![Andrii's GitHub stats](https://github-readme-stats.vercel.app/api?username=andriichornii&show_icons=true&theme=radical&hide=contribs,prs,stars,issues)](https://github.com/andriichornii/github-readme-stats)
+
+[![Andrii's GitHub stats](https://github-readme-stats.vercel.app/api?username=andriichornii&show_icons=true&theme=merko&hide=contribs,prs,stars,issues)](https://github.com/andriichornii/github-readme-stats)
+
+[![Andrii's GitHub stats](https://github-readme-stats.vercel.app/api?username=andriichornii&show_icons=true&theme=gruvbox&hide=contribs,prs,stars,issues)](https://github.com/andriichornii/github-readme-stats)
+
+[![Andrii's GitHub stats](https://github-readme-stats.vercel.app/api?username=andriichornii&show_icons=true&theme=onedark&hide=contribs,prs,stars,issues)](https://github.com/andriichornii/github-readme-stats)
+
+
+[![Andrii's GitHub stats](https://github-readme-stats.vercel.app/api?username=andriichornii&show_icons=true&theme=dracula&hide=contribs,prs,stars,issues)](https://github.com/andriichornii/github-readme-stats)
+-->
+## Git stats:
+[![Andrii's GitHub stats](https://github-readme-stats.vercel.app/api?username=AndriiChornii&show_icons=true&theme=tokyonight&hide=contribs,prs,stars,issues)](https://github.com/AndriiChornii/github-readme-stats)
