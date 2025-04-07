@@ -10,7 +10,9 @@ Gonna leave this part of code, cauze it was as example on the video, maybe thi c
 </a>
 
 ## Link to my CV
-[![CV A.Chornii QA Engineer](https://drive.google.com/file/d/1i9ShOKaMe5Ad1DCOjcuiJfD9QJvaG_Rd/view?usp=sharing)](https://drive.google.com/file/d/1i9ShOKaMe5Ad1DCOjcuiJfD9QJvaG_Rd/view?usp=sharing)
+
+<a href="https://drive.google.com/file/d/1i9ShOKaMe5Ad1DCOjcuiJfD9QJvaG_Rd/view?usp=sharing" target="_blank">CV A.Chornii QA Engineer</a>
+
 
 ## Languages and Tools
 
