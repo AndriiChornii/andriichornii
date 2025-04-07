@@ -9,7 +9,8 @@ Gonna leave this part of code, cauze it was as example on the video, maybe thi c
   <img src="https://github.com/AndriiChornii/andriichornii/blob/main/assets/Andrii_Chornii_Action_Figure.JPEG" alt="Header" width="450"/>
 </a>
 
-## Latest projects I worked on
+## Link to my CV
+[![CV A.Chornii QA Engineer](https://drive.google.com/file/d/1i9ShOKaMe5Ad1DCOjcuiJfD9QJvaG_Rd/view?usp=sharing)](https://drive.google.com/file/d/1i9ShOKaMe5Ad1DCOjcuiJfD9QJvaG_Rd/view?usp=sharing)
 
 ## Languages and Tools
 
