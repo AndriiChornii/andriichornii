@@ -65,4 +65,4 @@ Latest projects I worked on
 [![Andrii's GitHub stats](https://github-readme-stats.vercel.app/api?username=andriichornii&show_icons=true&theme=dracula&hide=contribs,prs,stars,issues)](https://github.com/andriichornii/github-readme-stats)
 -->
 ## Git stats:
-[![Andrii's GitHub stats](https://github-readme-stats.vercel.app/api?username=AndriiChornii&show_icons=true&theme=tokyonight&hide=contribs,prs,stars,issues)](https://github.com/AndriiChornii/github-readme-stats)
+[![Andrii's GitHub stats](https://github-readme-stats.vercel.app/api?username=AndriiChornii&count-private=true&show_icons=true&theme=tokyonight&hide=contribs,prs,stars,issues)](https://github.com/AndriiChornii/github-readme-stats)
