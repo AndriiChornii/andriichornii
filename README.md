@@ -6,10 +6,10 @@ Gonna leave this part of code, cauze it was as example on the video, maybe thi c
 -->
 
 <a href="https://www.linkedin.com/in/andriy-chorniy-714555145/">
-  <img src="https://github.com/AndriiChornii/andriichornii/blob/main/assets/Andrii_Chornii_Action_Figure.JPEG" alt="Header" width="600"/>
+  <img src="https://github.com/AndriiChornii/andriichornii/blob/main/assets/Andrii_Chornii_Action_Figure.JPEG" alt="Header" width="300"/>
 </a>
 
-Latest projects I worked on
+## Latest projects I worked on
 
 ## Languages and Tools
 
