@@ -2,9 +2,14 @@
 
 [![Header](https://github.com/AndriiChornii/andriichornii/blob/main/assets/Andrii_Chornii_Action_Figure.JPEG)](https://www.linkedin.com/in/andriy-chorniy-714555145/)
 
+<a href="https://www.linkedin.com/in/andriy-chorniy-714555145/">
+  <img src="https://github.com/AndriiChornii/andriichornii/blob/main/assets/Andrii_Chornii_Action_Figure.JPEG" alt="Header" width="600"/>
+</a>
+
 Latest projects I worked on
 
 ## Languages and Tools
+
 ![JIRA](https://img.shields.io/badge/JIRA-0C3B72?style=for-the-badge&logo=jira)
 ![Trello](https://img.shields.io/badge/Trello-0C65B4?style=for-the-badge&logo=Trello)
 ![TestRail](https://img.shields.io/badge/TestRail-1B2E3F?style=for-the-badge&logo=TestRail)
@@ -39,7 +44,7 @@ Latest projects I worked on
 
 
 
-## Contact With Me:
+## Contact With Me
 
 [![Telegram](https://img.shields.io/badge/Telegram-white?style=for-the-badge&logo=Telegram)](https://t.me/ablack1)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-248CCC?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/andriy-chorniy-714555145)
