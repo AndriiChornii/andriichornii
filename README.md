@@ -27,13 +27,13 @@ Latest projects I worked on
 ![Figma](https://img.shields.io/badge/Figma-F5F5F5?style=for-the-badge&logo=Figma)
 ![Git](https://img.shields.io/badge/Git-353535?style=for-the-badge&logo=Git)
 ![Confluence](https://img.shields.io/badge/Confluence-1E66F5?style=for-the-badge&logo=Confluence)
-## ![iOS](https://img.shields.io/badge/iOS-1FB0A2?style=for-the-badge&logo=iOS)
-## ![Android](https://img.shields.io/badge/Android-white?style=for-the-badge&logo=Android)
-## ![Windows](https://img.shields.io/badge/Windows-0A5CCA?style=for-the-badge&logo=Windows)
-## ![macOS](https://img.shields.io/badge/macOS-D9D9D9?style=for-the-badge&logo=macOS&logoColor=262626)
-## ![DevTools](https://img.shields.io/badge/DevTools-1083C5?style=for-the-badge&logo=DevTools)
-
-
+<!-->
+ ![iOS](https://img.shields.io/badge/iOS-1FB0A2?style=for-the-badge&logo=iOS)
+ ![Android](https://img.shields.io/badge/Android-white?style=for-the-badge&logo=Android)
+ ![Windows](https://img.shields.io/badge/Windows-0A5CCA?style=for-the-badge&logo=Windows)
+ ![macOS](https://img.shields.io/badge/macOS-D9D9D9?style=for-the-badge&logo=macOS&logoColor=262626)
+ ![DevTools](https://img.shields.io/badge/DevTools-1083C5?style=for-the-badge&logo=DevTools)
+-->
 
 
 
