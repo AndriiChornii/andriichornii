@@ -4,10 +4,11 @@
 Gonna leave this part of code, cauze it was as example on the video, maybe thi case gonna be more correct in the future
 [![Header](https://github.com/AndriiChornii/andriichornii/blob/main/assets/Andrii_Chornii_Action_Figure.JPEG)](https://www.linkedin.com/in/andriy-chorniy-714555145/)
 -->
-
+<p align="center">
 <a href="">
-  <img src="https://github.com/AndriiChornii/andriichornii/blob/main/assets/Andrii_Chornii_Action_Figure.JPEG" alt="Header" width="450"/>
+  <img src="https://github.com/AndriiChornii/andriichornii/blob/main/assets/Andrii_Chornii_Action_Figure.JPEG" alt="Header" width="450" />
 </a>
+<p/>
 
 ## Technologies and Tools
 
