@@ -39,6 +39,10 @@ Latest projects I worked on
 
 
 
-Follow Me
+## Contact With Me:
 
-## &logoColor=
+[![Telegram](https://img.shields.io/badge/Telegram-white?style=for-the-badge&logo=Telegram)](https://t.me/ablack1)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-248CCC?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/andriy-chorniy-714555145)
+[![Email](https://img.shields.io/badge/Email-white?style=for-the-badge&logo=Gmail)](mailto:a4ornii@gmail.com)
+
+<!-- &logoColor= -->
