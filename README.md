@@ -106,5 +106,6 @@ P.S: all documentation listed below is used in the <a href="https://walkme.dog">
 
 
 [![Andrii's GitHub stats](https://github-readme-stats.vercel.app/api?username=andriichornii&show_icons=true&theme=dracula&hide=contribs,prs,stars,issues)](https://github.com/andriichornii/github-readme-stats)
+hiding parameters: &hide=contribs,prs,stars,issues (need to paste after counter style)
 -->
-[![Andrii's GitHub stats](https://github-readme-stats.vercel.app/api?username=AndriiChornii&count_private=true&show_icons=true&theme=tokyonight&hide=contribs,prs,stars,issues)](https://github.com/AndriiChornii/github-readme-stats)
+[![Andrii's GitHub stats](https://github-readme-stats.vercel.app/api?username=AndriiChornii&count_private=true&show_icons=true&theme=tokyonight)](https://github.com/AndriiChornii/github-readme-stats)
