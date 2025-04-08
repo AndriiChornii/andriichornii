@@ -47,16 +47,16 @@ Gonna leave this part of code, cauze it was as example on the video, maybe thi c
 ## Examples of my test documentation:
 
 <p>
-<a href="" src="https://github.com/AndriiChornii/test-plan">🔘Test Plan
+<a href="" src="https://github.com/AndriiChornii/test-plan">🔘 Test Plan
 </a>
 </p>
-<a href="" src="https://github.com/AndriiChornii/test-case">🔘Test Case
+<a href="" src="https://github.com/AndriiChornii/test-case">🔘 Test Case
 </a>
 </p>
-<a href="" src="https://github.com/AndriiChornii/checklist">🔘Checklist
+<a href="" src="https://github.com/AndriiChornii/checklist">🔘 Checklist
 </a>
 </p>
-<a href="" src="https://github.com/AndriiChornii/bug-report">🔘Bug Report
+<a href="" src="https://github.com/AndriiChornii/bug-report">🔘 Bug Report
 </a>
 </p>
 
