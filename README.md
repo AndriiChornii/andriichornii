@@ -47,6 +47,12 @@ Gonna leave this part of code, cauze it was as example on the video, maybe thi c
 ## Examples of my test documentation:
 
 <p>
+  <a href="https://github.com/AndriiChornii/test-plan" style="text-decoration: none;">
+    🔘 Test Plan
+  </a>
+</p>
+
+<p>
 <a href="https://github.com/AndriiChornii/test-plan" style="text-decoration: none;" >🔘 Test Plan
 </a>
 </p>
