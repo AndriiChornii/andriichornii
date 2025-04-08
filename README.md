@@ -44,7 +44,8 @@ Gonna leave this part of code, cauze it was as example on the video, maybe thi c
 
 -->
 
-## Examples of my test documentation:
+## Examples of my created test documentation: 
+P.S: all documentation listed below is used in the <a href="https://walkme.dog">Walkme App</a> project
 
 [![Test Plan Badge](https://img.shields.io/badge/🔘Test%20Plan-0C2B5E?style=for-the-badge&logo=Testomatio)](https://github.com/AndriiChornii/test-plan)
 
