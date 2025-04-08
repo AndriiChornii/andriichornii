@@ -46,9 +46,15 @@ Gonna leave this part of code, cauze it was as example on the video, maybe thi c
 
 ## Examples of my test documentation:
 
-[![Test Plan Badge](https://img.shields.io/badge/Test%20Plan-0C3B72?style=for-the-badge&logo=Testomatio)](https://github.com/AndriiChornii/test-plan)
+[![Test Plan Badge](https://img.shields.io/badge/🔘Test%20Plan-0C2B5E?style=for-the-badge&logo=Testomatio)](https://github.com/AndriiChornii/test-plan)
 
+[![Test Case Badge](https://img.shields.io/badge/🔘Test%20Case-259527?style=for-the-badge&logo=Testomatio)](https://github.com/AndriiChornii/test-case)
 
+[![Checklist Badge](https://img.shields.io/badge/🔘Checklist-2AA2E3?style=for-the-badge&logo=Testomatio)](https://github.com/AndriiChornii/checklist)
+
+[![Bug Report Badge](https://img.shields.io/badge/🔘Bug%20Report-EA3926?style=for-the-badge&logo=Testomatio)](https://github.com/AndriiChornii/bug-report)
+
+<!--
 <p>
 <a href="https://github.com/AndriiChornii/test-plan" style="text-decoration: none;" >🔘 Test Plan
 </a>
@@ -61,9 +67,9 @@ Gonna leave this part of code, cauze it was as example on the video, maybe thi c
 </p>
 <a href="https://github.com/AndriiChornii/bug-report" style="text-decoration: none;">🔘 Bug Report
 </a>
-</p>
+</p> -->
 
-## ________________________________________
+
 
 ### Link to my CV
 <p >
