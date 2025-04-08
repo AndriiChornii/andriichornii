@@ -46,11 +46,8 @@ Gonna leave this part of code, cauze it was as example on the video, maybe thi c
 
 ## Examples of my test documentation:
 
-<p>
-  <a href="https://github.com/AndriiChornii/test-plan" style="text-decoration: none;">
-    🔘 Test Plan
-  </a>
-</p>
+[![Test Plan Badge](https://img.shields.io/badge/Test%20Plan-0C3B72?style=for-the-badge&logo=Testomatio)](https://github.com/AndriiChornii/test-plan)
+
 
 <p>
 <a href="https://github.com/AndriiChornii/test-plan" style="text-decoration: none;" >🔘 Test Plan
