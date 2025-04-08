@@ -44,20 +44,40 @@ Gonna leave this part of code, cauze it was as example on the video, maybe thi c
 
 -->
 
-### Examples of my test documentation:
+## Examples of my test documentation:
+## ________________________________________
+<p>
+<a href="" src="https://github.com/AndriiChornii/test-plan">Test Plan
+</a>
+</p>
+<a href="" src="https://github.com/AndriiChornii/test-case">Test Case
+</a>
+</p>
+<a href="" src="https://github.com/AndriiChornii/checklist">Checklist
+</a>
+</p>
+<a href="" src="https://github.com/AndriiChornii/bug-report">Bug Report
+</a>
+</p>
 
+## ________________________________________
 
 ### Link to my CV
-<p>
+<p >
 <a href="https://drive.google.com/file/d/1i9ShOKaMe5Ad1DCOjcuiJfD9QJvaG_Rd/view?usp=sharing" >
 <img src="https://github.com/AndriiChornii/andriichornii/blob/main/assets/%D0%97%D0%BD%D1%96%D0%BC%D0%BE%D0%BA%20%D0%B5%D0%BA%D1%80%D0%B0%D0%BD%D0%B0%202025-04-07%20%D0%BE%2020.28.58.png" alt="CV" width="100" /><br>CV A.Chornii QA Engineer</a>
 </p>
 
+## ________________________________________
+
 ### Contact With Me
+
 
 [![Telegram](https://img.shields.io/badge/Telegram-white?style=for-the-badge&logo=Telegram)](https://t.me/ablack1)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-248CCC?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/andriy-chorniy-714555145)
 [![Email](https://img.shields.io/badge/Email-white?style=for-the-badge&logo=Gmail)](mailto:a4ornii@gmail.com)
+
+## ________________________________________
 
 <!-- Leave here a different style of stats for the future, maybe I gonna want to change it. The link to the theme author: https://github.com/anuraghazra/github-readme-stats
 
@@ -78,5 +98,4 @@ Gonna leave this part of code, cauze it was as example on the video, maybe thi c
 
 [![Andrii's GitHub stats](https://github-readme-stats.vercel.app/api?username=andriichornii&show_icons=true&theme=dracula&hide=contribs,prs,stars,issues)](https://github.com/andriichornii/github-readme-stats)
 -->
-## ________________________________________
 [![Andrii's GitHub stats](https://github-readme-stats.vercel.app/api?username=AndriiChornii&count_private=true&show_icons=true&theme=tokyonight&hide=contribs,prs,stars,issues)](https://github.com/AndriiChornii/github-readme-stats)
