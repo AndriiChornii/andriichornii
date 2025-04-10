@@ -75,7 +75,7 @@ P.S: all documentation listed below is used in the <a href="https://walkme.dog">
 ## Link to my CV
 <p >
 <a href="https://drive.google.com/file/d/19exTowI_5GVQi64iHhNeRvRSyTOHG8up/view?usp=sharing" >
-<img src="https://github.com/AndriiChornii/andriichornii/blob/main/assets/CV_preview.png" alt="CV" width="100" /><br>CV A.Chornii QA Engineer</a>
+<img src="https://github.com/AndriiChornii/andriichornii/blob/main/assets/CV_preview.png" alt="CV" width="150" /><br>CV A.Chornii QA Engineer</a>
 </p>
 
 
