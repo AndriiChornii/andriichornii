@@ -44,7 +44,8 @@ Gonna leave this part of code, cauze it was as example on the video, maybe thi c
 
 -->
 
-## Examples of my test documentation:
+## Examples of my created test documentation: 
+P.S: all documentation listed below is used in the <a href="https://walkme.dog">Walkme App</a> project
 
 [![Test Plan Badge](https://img.shields.io/badge/🔘Test%20Plan-0C2B5E?style=for-the-badge&logo=Testomatio)](https://github.com/AndriiChornii/test-plan)
 
@@ -105,5 +106,6 @@ Gonna leave this part of code, cauze it was as example on the video, maybe thi c
 
 
 [![Andrii's GitHub stats](https://github-readme-stats.vercel.app/api?username=andriichornii&show_icons=true&theme=dracula&hide=contribs,prs,stars,issues)](https://github.com/andriichornii/github-readme-stats)
+hiding parameters: &hide=contribs,prs,stars,issues (need to paste after counter style)
 -->
-[![Andrii's GitHub stats](https://github-readme-stats.vercel.app/api?username=AndriiChornii&count_private=true&show_icons=true&theme=tokyonight&hide=contribs,prs,stars,issues)](https://github.com/AndriiChornii/github-readme-stats)
+[![Andrii's GitHub stats](https://github-readme-stats.vercel.app/api?username=AndriiChornii&count_private=true&show_icons=true&theme=tokyonight)](https://github.com/AndriiChornii/github-readme-stats)
