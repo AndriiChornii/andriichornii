@@ -110,4 +110,4 @@ hiding parameters: &hide=contribs,prs,stars,issues (need to paste after counter 
 -->
 [![Andrii's GitHub stats](https://github-readme-stats.vercel.app/api?username=AndriiChornii&count_private=true&show_icons=true&theme=tokyonight)](https://github.com/AndriiChornii/github-readme-stats)
 
-![Counter](https://komarev.com/ghpvc/?username=andriichornii&style=for-the-badge&color=dc143c)
+![Profile Views](https://komarev.com/ghpvc/?username=andriichornii&style=for-the-badge&color=1F77C1)
