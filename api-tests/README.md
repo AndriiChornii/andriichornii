@@ -38,8 +38,10 @@ Collection: `dummy_api_tests.postman_collection.json`
 
 # Any case, if you don't wanna install and run all of the cases, you can just check how my cases looks like here: 
 This is Dummy JSON collection
-https://github.com/AndriiChornii/andriichornii/blob/main/assets/DummyJSON%20API%20tests.png
+![Dummy JSON](https://github.com/AndriiChornii/andriichornii/blob/main/assets/DummyJSON%20API%20tests.png)
 
 This is reqres.in collection
-https://github.com/AndriiChornii/andriichornii/blob/main/assets/reqres.in%20API%20tests.png
-Andrii Chornii — QA Engineer  
+![reqres.in](https://github.com/AndriiChornii/andriichornii/blob/main/assets/reqres.in%20API%20tests.png)
+
+
+
