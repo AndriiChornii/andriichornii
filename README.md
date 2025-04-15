@@ -54,7 +54,7 @@ Gonna leave this part of code, cauze it was as example on the video, maybe thi c
 
 [![Bug Report Badge](https://img.shields.io/badge/🔘Bug%20Report-EA3926?style=for-the-badge&logo=Testomatio)](https://github.com/AndriiChornii/bug-report) <a href="https://walkme.dog">Walkme App</a> project
 
-[![API testing](https://img.shields.io/badge/🔘API%20Tests-FF5600?style=for-the-badge&logo=Testomatio)](https://github.com/AndriiChornii/andriichornii/blob/api-tests/api-tests/README.md) 🏋️‍♀️🏋️‍♀️🏋️‍♀️
+[![API testing](https://img.shields.io/badge/🔘API%20Tests-FF5600?style=for-the-badge&logo=Testomatio)](https://github.com/AndriiChornii/andriichornii/blob/api-tests/api-tests/README.md) 🏋️‍♀️🏋️‍♀️🏋️‍♀️ (Created on the training platfroms)
 
 <!--
 <p>
