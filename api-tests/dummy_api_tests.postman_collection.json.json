@@ -1,0 +1,916 @@
+{
+	"info": {
+		"_postman_id": "78b564a0-5281-43a5-94b6-f958c7ccb391",
+		"name": "DummyJSON API Testing",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "44029314"
+	},
+	"item": [
+		{
+			"name": "Products tests",
+			"item": [
+				{
+					"name": "Positive tests",
+					"item": [
+						{
+							"name": "DELETE the product (positive)",
+							"request": {
+								"auth": {
+									"type": "noauth"
+								},
+								"method": "DELETE",
+								"header": [],
+								"url": {
+									"raw": "https://dummyjson.com/products/1",
+									"protocol": "https",
+									"host": [
+										"dummyjson",
+										"com"
+									],
+									"path": [
+										"products",
+										"1"
+									]
+								},
+								"description": "**ID:** TC_DELETE_001\n\n**Summary:** Delete the specific product  \n**Steps:**\n\n1. Open Postman\n    \n2. Click on the \"GET\" tab\n    \n3. Select the \"DELETE\" method from the list\n    \n4. Enter [https://dummyjson.com/products/1](https://dummyjson.com/products/add) in the URL field\n    \n5. Click on the \"Send\" button\n    \n\n**Expected result:**\n\nReceived status 200 OK request  \nThe response body includes: \"isDeleted\": true"
+							},
+							"response": []
+						},
+						{
+							"name": "PATCH update the price of the product (positive)",
+							"request": {
+								"auth": {
+									"type": "noauth"
+								},
+								"method": "PATCH",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "https://dummyjson.com/products/1",
+									"protocol": "https",
+									"host": [
+										"dummyjson",
+										"com"
+									],
+									"path": [
+										"products",
+										"1"
+									]
+								},
+								"description": "**ID:** TC_PATCH_001\n\n**Summary:** Update the price of the specific product  \n**Steps:**\n\n1. Open Postman\n    \n2. Click on the \"GET\" tab\n    \n3. Select the \"PATCH\" method from the list\n    \n4. Enter [https://dummyjson.com/products/1](https://dummyjson.com/products/add) in the URL field\n    \n5. Click on the \"Send\" button\n    \n\n**Expected result:**\n\nReceived status 200 OK request  \nThe response body includes created updated product price"
+							},
+							"response": []
+						},
+						{
+							"name": "GET product list (positive)",
+							"request": {
+								"auth": {
+									"type": "noauth"
+								},
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "https://dummyjson.com/products",
+									"protocol": "https",
+									"host": [
+										"dummyjson",
+										"com"
+									],
+									"path": [
+										"products"
+									]
+								},
+								"description": "**ID:** TC_GET_001\n\n**Summary:** Get product list  \n**Steps:**\n\n1. Open Postman\n    \n2. Click on the \"GET\" tab\n    \n3. Enter [https://dummyjson.com/products](https://dummyjson.com/products) in the URL field\n    \n4. Click on the \"Send\" button\n    \n\n**Expected result:**\n\nReceived status 200 OK request  \nThe response body includes a massive of data\n\nThe number of products per 1 page is 30"
+							},
+							"response": []
+						},
+						{
+							"name": "GET product by ID (positive)",
+							"request": {
+								"auth": {
+									"type": "noauth"
+								},
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "https://dummyjson.com/products/1",
+									"protocol": "https",
+									"host": [
+										"dummyjson",
+										"com"
+									],
+									"path": [
+										"products",
+										"1"
+									]
+								},
+								"description": "**ID:** TC_GET_002\n\n**Summary:** Get specific product by ID  \n**Steps:**\n\n1. Open Postman\n    \n2. Click on the \"GET\" tab\n    \n3. Enter [https://dummyjson.com/products/1](https://dummyjson.com/products/1) in the URL field\n    \n4. Click on the \"Send\" button\n    \n\n**Expected result:**\n\nReceived status 200 OK request  \nThe response body includes a massive of data (especially ID with the number \"1\") that responds to the specification"
+							},
+							"response": []
+						},
+						{
+							"name": "POST add a new product (positive)",
+							"request": {
+								"auth": {
+									"type": "noauth"
+								},
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n  \"title\": \"a new product\",\n  \"description\": \"description of a new product\",\n  \"price\": 99\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "https://dummyjson.com/products/add",
+									"protocol": "https",
+									"host": [
+										"dummyjson",
+										"com"
+									],
+									"path": [
+										"products",
+										"add"
+									]
+								},
+								"description": "**ID:** TC_POST_001\n\n**Summary:** Add a new product to the list  \n**Steps:**\n\n1. Open Postman\n    \n2. Click on the \"GET\" tab\n    \n3. Select the \"POST\" method from the list\n    \n4. Enter [https://dummyjson.com/products/add](https://dummyjson.com/products/add) in the URL field\n    \n5. Click on the \"Send\" button\n    \n\n**Expected result:**\n\nReceived status 201 Created request  \nThe response body includes created fields: title, description, price, a new id for the new product"
+							},
+							"response": []
+						},
+						{
+							"name": "PUT update the product (positive)",
+							"request": {
+								"auth": {
+									"type": "noauth"
+								},
+								"method": "PUT",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n  \"title\": \"Updated product\",\n  \"description\": \"Updated description\",\n  \"price\": 150\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "https://dummyjson.com/products/1",
+									"protocol": "https",
+									"host": [
+										"dummyjson",
+										"com"
+									],
+									"path": [
+										"products",
+										"1"
+									]
+								},
+								"description": "**ID:** TC_PUT_001\n\n**Summary:** Update specific product  \n**Steps:**\n\n1. Open Postman\n    \n2. Click on the \"GET\" tab\n    \n3. Select the \"PUT\" method from the list\n    \n4. Enter [https://dummyjson.com/products/1](https://dummyjson.com/products/add) in the URL field\n    \n5. Click on the \"Send\" button\n    \n\n**Expected result:**\n\nReceived status 200 OK request  \nThe response body includes created updated product data"
+							},
+							"response": []
+						}
+					]
+				},
+				{
+					"name": "Negative tests",
+					"item": [
+						{
+							"name": "DELETE the product with non existing id (negative)",
+							"request": {
+								"auth": {
+									"type": "noauth"
+								},
+								"method": "DELETE",
+								"header": [],
+								"url": {
+									"raw": "https://dummyjson.com/products/99999",
+									"protocol": "https",
+									"host": [
+										"dummyjson",
+										"com"
+									],
+									"path": [
+										"products",
+										"99999"
+									]
+								},
+								"description": "**ID:** TC_DELETE_002\n\n**Summary:** Delete the specific product with non existing id  \n**Steps:**\n\n1. Open Postman\n    \n2. Click on the \"GET\" tab\n    \n3. Select the \"DELETE\" method from the list\n    \n4. Enter [https://dummyjson.com/products/1](https://dummyjson.com/products/add) in the URL field\n    \n5. Click on the \"Send\" button\n    \n\n**Expected result:**\n\nReceived status 404 Not Found request  \nMessage: \"Product with id '99999' not found\""
+							},
+							"response": []
+						},
+						{
+							"name": "PATCH update the price of the product without body (negative)",
+							"request": {
+								"auth": {
+									"type": "noauth"
+								},
+								"method": "PATCH",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "https://dummyjson.com/products/1",
+									"protocol": "https",
+									"host": [
+										"dummyjson",
+										"com"
+									],
+									"path": [
+										"products",
+										"1"
+									]
+								},
+								"description": "**ID:** TC_PATCH_002\n\n**Summary:** Update the price of the specific product with an empty body  \n**Steps:**\n\n1. Open Postman\n    \n2. Click on the \"GET\" tab\n    \n3. Select the \"PATCH\" method from the list\n    \n4. Enter [https://dummyjson.com/products/1](https://dummyjson.com/products/add) in the URL field\n    \n5. Click on the \"Send\" button\n    \n\n**Actual result:**\n\n200 OK\n\n**Expected result:**\n\n400 Bad Request  \nMessage: \"There is no data for update\""
+							},
+							"response": []
+						},
+						{
+							"name": "POST add a new product with wrong endpoint (negative)",
+							"request": {
+								"auth": {
+									"type": "noauth"
+								},
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n  \"title\": \"a new product\",\n  \"description\": \"description of a new product\",\n  \"price\": 99\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "https://dummyjson.com/products/create",
+									"protocol": "https",
+									"host": [
+										"dummyjson",
+										"com"
+									],
+									"path": [
+										"products",
+										"create"
+									]
+								},
+								"description": "**ID:** TC_POST_004\n\n**Summary:** Add a new product with the wrong endpoint\n\n**Steps:**\n\n1. Open Postman\n    \n2. Click on the \"GET\" tab\n    \n3. Select the \"POST\" method from the list\n    \n4. Enter [https://dummyjson.com/products/add](https://dummyjson.com/products/add) in the URL field\n    \n5. Click on the \"Send\" button\n    \n\n  \n**Expected result:**\n\n404 Not Found"
+							},
+							"response": []
+						},
+						{
+							"name": "POST add a new product with wrong data types (negative)",
+							"request": {
+								"auth": {
+									"type": "noauth"
+								},
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n \"title\": 123,\n \"price\": \"ninety-nine\"\n }",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "https://dummyjson.com/products/add",
+									"protocol": "https",
+									"host": [
+										"dummyjson",
+										"com"
+									],
+									"path": [
+										"products",
+										"add"
+									]
+								},
+								"description": "**ID:** TC_POST_003\n\n**Summary:** Add a new product with an empty body\n\n**Steps:**\n\n1. Open Postman\n    \n2. Click on the \"GET\" tab\n    \n3. Select the \"POST\" method from the list\n    \n4. Enter [https://dummyjson.com/products/add](https://dummyjson.com/products/add) in the URL field\n    \n5. Click on the \"Send\" button\n    \n6. In the Body insert \"{  \n    \"title\": 123,  \n    \"price\": \"ninety-nine\"  \n    }\"\n    \n\n**Actual result:**\n\nReceived status 201 Created request  \n**Expected result:**\n\n400 Bad Request  \nMessage: \"Field 'title' must be string, 'price' must be number\""
+							},
+							"response": []
+						},
+						{
+							"name": "POST add a new product with empty body (negative)",
+							"request": {
+								"auth": {
+									"type": "noauth"
+								},
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "https://dummyjson.com/products/add",
+									"protocol": "https",
+									"host": [
+										"dummyjson",
+										"com"
+									],
+									"path": [
+										"products",
+										"add"
+									]
+								},
+								"description": "**ID:** TC_POST_002\n\n**Summary:** Add a new product with an empty body\n\n**Steps:**\n\n1. Open Postman\n    \n2. Click on the \"GET\" tab\n    \n3. Select the \"POST\" method from the list\n    \n4. Enter [https://dummyjson.com/products/add](https://dummyjson.com/products/add) in the URL field\n    \n5. Click on the \"Send\" button\n    \n\n**Expected result:**\n\nReceived status 201 Created request"
+							},
+							"response": []
+						},
+						{
+							"name": "GET a product with non existing id (negative)",
+							"request": {
+								"auth": {
+									"type": "noauth"
+								},
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "https://dummyjson.com/products/99999",
+									"protocol": "https",
+									"host": [
+										"dummyjson",
+										"com"
+									],
+									"path": [
+										"products",
+										"99999"
+									]
+								},
+								"description": "**ID:** TC_GET_003\n\n**Summary:** Trying to get the product with an invalid id  \n**Steps:**\n\n1. Open Postman\n    \n2. Click on the \"GET\" tab\n    \n3. Enter [https://dummyjson.com/products/9999](https://dummyjson.com/products/9999) in the URL field\n    \n4. Click on the \"Send\" button\n    \n\n**Expected result:**\n\nReceived status 404 Not Found request  \nThe response body includes the field: \"message\": \"Product with id '99999' not found\""
+							},
+							"response": []
+						},
+						{
+							"name": "GET product list with wrong URL (negative)",
+							"request": {
+								"auth": {
+									"type": "noauth"
+								},
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "https://dummyjson.com/productsssss",
+									"protocol": "https",
+									"host": [
+										"dummyjson",
+										"com"
+									],
+									"path": [
+										"productsssss"
+									]
+								},
+								"description": "**ID:** TC_GET_004\n\n**Summary:** Get the product list via the wrong URL  \n**Steps:**\n\n1. Open Postman\n    \n2. Click on the \"GET\" tab\n    \n3. Enter [https://dummyjson.com/products](https://dummyjson.com/products) in the URL field\n    \n4. Click on the \"Send\" button\n    \n\n**Expected result:**\n\nReceived status 404 Not Found request"
+							},
+							"response": []
+						},
+						{
+							"name": "PUT update the product with invalid id (negaive)",
+							"request": {
+								"auth": {
+									"type": "noauth"
+								},
+								"method": "PUT",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n  \"title\": \"Updated product\",\n  \"description\": \"Updated description\",\n  \"price\": 150\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "https://dummyjson.com/products/abc",
+									"protocol": "https",
+									"host": [
+										"dummyjson",
+										"com"
+									],
+									"path": [
+										"products",
+										"abc"
+									]
+								},
+								"description": "**ID:** TC_PUT_002\n\n**Summary:** Update a specific product with ian nvalid id  \n**Steps:**\n\n1. Open Postman\n    \n2. Click on the \"GET\" tab\n    \n3. Select the \"PUT\" method from the list\n    \n4. Enter [https://dummyjson.com/products/1](https://dummyjson.com/products/add) in the URL field\n    \n5. Click on the \"Send\" button\n    \n\n**Expected result:**\n\nReceived status 404 Not Found request  \nMessage: \"Product with id 'abc' not found\""
+							},
+							"response": []
+						}
+					]
+				},
+				{
+					"name": "Auth tests",
+					"item": [
+						{
+							"name": "Negative tests",
+							"item": [
+								{
+									"name": "POST login with invalid credentials",
+									"request": {
+										"auth": {
+											"type": "noauth"
+										},
+										"method": "POST",
+										"header": [],
+										"body": {
+											"mode": "raw",
+											"raw": "{\n    \"username\": \"andrii\",\n    \"password\": \"chornii\"\n}",
+											"options": {
+												"raw": {
+													"language": "json"
+												}
+											}
+										},
+										"url": {
+											"raw": "https://dummyjson.com/auth/login",
+											"protocol": "https",
+											"host": [
+												"dummyjson",
+												"com"
+											],
+											"path": [
+												"auth",
+												"login"
+											]
+										},
+										"description": "**ID:** TC_POST_001\n\n**Summary:** Login with invalid credentials  \n**Steps:**\n\n1. Open Postman\n    \n2. Click on the \"GET\" tab\n    \n3. Select the \"POST\" method\n    \n4. Enter [https://dummyjson.com/auth/login](https://dummyjson.com/auth/me) in the URL field\n    \n5. Click on the \"Send\" button\n    \n\n**Expected result:**\n\nReceived status 400 Bad Request"
+									},
+									"response": []
+								},
+								{
+									"name": "POST login with an empty username (negative)",
+									"request": {
+										"auth": {
+											"type": "noauth"
+										},
+										"method": "POST",
+										"header": [],
+										"body": {
+											"mode": "raw",
+											"raw": "{\n    \"password\": \"emilyspass\"\n}",
+											"options": {
+												"raw": {
+													"language": "json"
+												}
+											}
+										},
+										"url": {
+											"raw": "https://dummyjson.com/auth/login",
+											"protocol": "https",
+											"host": [
+												"dummyjson",
+												"com"
+											],
+											"path": [
+												"auth",
+												"login"
+											]
+										},
+										"description": "**ID:** TC_POST_003\n\n**Summary:** Login with an empty username field  \n**Steps:**\n\n1. Open Postman\n    \n2. Click on the \"GET\" tab\n    \n3. Select the \"POST\" method\n    \n4. Enter [https://dummyjson.com/auth/login](https://dummyjson.com/auth/me) in the URL field\n    \n5. Click on the \"Send\" button\n    \n\n**Expected result:**\n\nReceived status 400 Bad Request  \nMessage: \"Username and password required\""
+									},
+									"response": []
+								},
+								{
+									"name": "POST login with an empty password (negative)",
+									"request": {
+										"auth": {
+											"type": "noauth"
+										},
+										"method": "POST",
+										"header": [],
+										"body": {
+											"mode": "raw",
+											"raw": "{\n    \"username\": \"emilys\"\n}",
+											"options": {
+												"raw": {
+													"language": "json"
+												}
+											}
+										},
+										"url": {
+											"raw": "https://dummyjson.com/auth/login",
+											"protocol": "https",
+											"host": [
+												"dummyjson",
+												"com"
+											],
+											"path": [
+												"auth",
+												"login"
+											]
+										},
+										"description": "**ID:** TC_POST_004\n\n**Summary:** Login with an empty password field  \n**Steps:**\n\n1. Open Postman\n    \n2. Click on the \"GET\" tab\n    \n3. Select the \"POST\" method\n    \n4. Enter [https://dummyjson.com/auth/login](https://dummyjson.com/auth/me) in the URL field\n    \n5. Click on the \"Send\" button\n    \n\n**Expected result:**\n\nReceived status 400 Bad Request  \nMessage: \"Username and password required\""
+									},
+									"response": []
+								},
+								{
+									"name": "POST login with valid username and not valid password (negative)",
+									"request": {
+										"auth": {
+											"type": "noauth"
+										},
+										"method": "POST",
+										"header": [],
+										"body": {
+											"mode": "raw",
+											"raw": "{\n    \"username\": \"emilys\",\n    \"password\": \"test1111\"\n}",
+											"options": {
+												"raw": {
+													"language": "json"
+												}
+											}
+										},
+										"url": {
+											"raw": "https://dummyjson.com/auth/login",
+											"protocol": "https",
+											"host": [
+												"dummyjson",
+												"com"
+											],
+											"path": [
+												"auth",
+												"login"
+											]
+										},
+										"description": "**ID:** TC_POST_005\n\n**Summary:** Login with valid username and not valid password  \n**Steps:**\n\n1. Open Postman\n    \n2. Click on the \"GET\" tab\n    \n3. Select the \"POST\" method\n    \n4. Enter [https://dummyjson.com/auth/login](https://dummyjson.com/auth/me) in the URL field\n    \n5. Click on the \"Send\" button\n    \n\n**Expected result:**\n\nReceived status 400 Bad Request  \nMessage: \"Invalid credentials\""
+									},
+									"response": []
+								},
+								{
+									"name": "POST login with not valid username and valid password (negative)",
+									"request": {
+										"auth": {
+											"type": "noauth"
+										},
+										"method": "POST",
+										"header": [],
+										"body": {
+											"mode": "raw",
+											"raw": "{\n    \"username\": \"a4ornii\",\n    \"password\": \"emilyspass\"\n}",
+											"options": {
+												"raw": {
+													"language": "json"
+												}
+											}
+										},
+										"url": {
+											"raw": "https://dummyjson.com/auth/login",
+											"protocol": "https",
+											"host": [
+												"dummyjson",
+												"com"
+											],
+											"path": [
+												"auth",
+												"login"
+											]
+										},
+										"description": "**ID:** TC_POST_006\n\n**Summary:** Login with valid password and not valid username  \n**Steps:**\n\n1. Open Postman\n    \n2. Click on the \"GET\" tab\n    \n3. Select the \"POST\" method\n    \n4. Enter [https://dummyjson.com/auth/login](https://dummyjson.com/auth/me) in the URL field\n    \n5. Click on the \"Send\" button\n    \n\n**Expected result:**\n\nReceived status 400 Bad Request  \nMessage: \"Invalid credentials\""
+									},
+									"response": []
+								},
+								{
+									"name": "POST login with username as int and valid password (negative)",
+									"request": {
+										"auth": {
+											"type": "noauth"
+										},
+										"method": "POST",
+										"header": [],
+										"body": {
+											"mode": "raw",
+											"raw": "{\n    \"username\": 12,\n    \"password\": \"emilyspass\"\n}",
+											"options": {
+												"raw": {
+													"language": "json"
+												}
+											}
+										},
+										"url": {
+											"raw": "https://dummyjson.com/auth/login",
+											"protocol": "https",
+											"host": [
+												"dummyjson",
+												"com"
+											],
+											"path": [
+												"auth",
+												"login"
+											]
+										},
+										"description": "**ID:** TC_POST_007\n\n**Summary:** Login with int datatype in username and valid data in password  \n**Steps:**\n\n1. Open Postman\n    \n2. Click on the \"GET\" tab\n    \n3. Select the \"POST\" method\n    \n4. Enter [https://dummyjson.com/auth/login](https://dummyjson.com/auth/me) in the URL field\n    \n5. Click on the \"Send\" button\n    \n\n**Expected result:**\n\nReceived status 400 Bad Request  \nMessage: \"Invalid credentials\"\n\n**Actual result:**\n\nReceived status 500 Internal Server Error  \nMessage: \"username.toLowerCase is not a function\""
+									},
+									"response": []
+								},
+								{
+									"name": "POST login with password as int and valid username (negative)",
+									"request": {
+										"auth": {
+											"type": "noauth"
+										},
+										"method": "POST",
+										"header": [],
+										"body": {
+											"mode": "raw",
+											"raw": "{\n    \"username\": \"emilys\",\n    \"password\": 12\n}",
+											"options": {
+												"raw": {
+													"language": "json"
+												}
+											}
+										},
+										"url": {
+											"raw": "https://dummyjson.com/auth/login",
+											"protocol": "https",
+											"host": [
+												"dummyjson",
+												"com"
+											],
+											"path": [
+												"auth",
+												"login"
+											]
+										},
+										"description": "**ID:** TC_POST_008\n\n**Summary:** Login with int datatype in password and valid data in username  \n**Steps:**\n\n1. Open Postman\n    \n2. Click on the \"GET\" tab\n    \n3. Select the \"POST\" method\n    \n4. Enter [https://dummyjson.com/auth/login](https://dummyjson.com/auth/me) in the URL field\n    \n5. Click on the \"Send\" button\n    \n\n**Expected result:**\n\nReceived status 400 Bad Request  \nMessage: \"Invalid credentials\""
+									},
+									"response": []
+								},
+								{
+									"name": "POST login with valid password and username as Null datatype (negative)",
+									"request": {
+										"auth": {
+											"type": "noauth"
+										},
+										"method": "POST",
+										"header": [],
+										"body": {
+											"mode": "raw",
+											"raw": "{\n    \"username\": null,\n    \"password\": \"emilyspass\"\n}",
+											"options": {
+												"raw": {
+													"language": "json"
+												}
+											}
+										},
+										"url": {
+											"raw": "https://dummyjson.com/auth/login",
+											"protocol": "https",
+											"host": [
+												"dummyjson",
+												"com"
+											],
+											"path": [
+												"auth",
+												"login"
+											]
+										},
+										"description": "**ID:** TC_POST_009\n\n**Summary:** Login with null datatype in username and valid data in password  \n**Steps:**\n\n1. Open Postman\n    \n2. Click on the \"GET\" tab\n    \n3. Select the \"POST\" method\n    \n4. Enter [https://dummyjson.com/auth/login](https://dummyjson.com/auth/me) in the URL field\n    \n5. Click on the \"Send\" button\n    \n\n**Expected result:**\n\nReceived status 400 Bad Request  \nMessage: \"Username and password required"
+									},
+									"response": []
+								},
+								{
+									"name": "POST login with valid data in array format (negative)",
+									"request": {
+										"auth": {
+											"type": "noauth"
+										},
+										"method": "POST",
+										"header": [],
+										"body": {
+											"mode": "raw",
+											"raw": "{\n    \"username\": [\n        \"emilys\",\n        \"array\"\n    ],\n    \"password\": [\n        \"emilyspass\",\n        \"arary\"\n    ]\n}",
+											"options": {
+												"raw": {
+													"language": "json"
+												}
+											}
+										},
+										"url": {
+											"raw": "https://dummyjson.com/auth/login",
+											"protocol": "https",
+											"host": [
+												"dummyjson",
+												"com"
+											],
+											"path": [
+												"auth",
+												"login"
+											]
+										},
+										"description": "**ID:** TC_POST_010\n\n**Summary:** Login with the correct username and password as array datatype  \n**Steps:**\n\n1. Open Postman\n    \n2. Click on the \"GET\" tab\n    \n3. Select the \"POST\" method\n    \n4. Enter [https://dummyjson.com/auth/login](https://dummyjson.com/auth/me) in the URL field\n    \n5. Click on the \"Send\" button\n    \n\n**Expected result:**\n\nReceived status 400 Bad Request  \nMessage: \"Username and password required\n\n**Actual result:**\n\nReceived status 500 Internal Server Error\n\nMessage:\"username.toLowerCase is not a function\""
+									},
+									"response": []
+								},
+								{
+									"name": "POST login with valid data in object format (negative)",
+									"request": {
+										"auth": {
+											"type": "noauth"
+										},
+										"method": "POST",
+										"header": [],
+										"body": {
+											"mode": "raw",
+											"raw": "{\n  \"username\": { \"email\": \"emilys\" },\n  \"password\": { \"value\": \"emilyspass\" }\n}",
+											"options": {
+												"raw": {
+													"language": "json"
+												}
+											}
+										},
+										"url": {
+											"raw": "https://dummyjson.com/auth/login",
+											"protocol": "https",
+											"host": [
+												"dummyjson",
+												"com"
+											],
+											"path": [
+												"auth",
+												"login"
+											]
+										},
+										"description": "**ID:** TC_POST_011\n\n**Summary:** Login with the correct username and password as object datatype  \n**Steps:**\n\n1. Open Postman\n    \n2. Click on the \"GET\" tab\n    \n3. Select the \"POST\" method\n    \n4. Enter [https://dummyjson.com/auth/login](https://dummyjson.com/auth/me) in the URL field\n    \n5. Click on the \"Send\" button\n    \n\n**Expected result:**\n\nReceived status 400 Bad Request  \nMessage: \"Username and password required\n\n**Actual result:**\n\nReceived status 500 Internal Server Error\n\nMessage:\"username.toLowerCase is not a function\""
+									},
+									"response": []
+								},
+								{
+									"name": "POST login with valid data in SQL injection format (negative)",
+									"request": {
+										"auth": {
+											"type": "noauth"
+										},
+										"method": "POST",
+										"header": [],
+										"body": {
+											"mode": "raw",
+											"raw": "{\n    \"username\": \"emilys' OR '1'='1\",\n    \"password\": \"emylyspass\"\n}",
+											"options": {
+												"raw": {
+													"language": "json"
+												}
+											}
+										},
+										"url": {
+											"raw": "https://dummyjson.com/auth/login",
+											"protocol": "https",
+											"host": [
+												"dummyjson",
+												"com"
+											],
+											"path": [
+												"auth",
+												"login"
+											]
+										},
+										"description": "**ID:** TC_POST_012\n\n**Summary:** Login with the correct username and password as SQL injection  \n**Steps:**\n\n1. Open Postman\n    \n2. Click on the \"GET\" tab\n    \n3. Select the \"POST\" method\n    \n4. Enter [https://dummyjson.com/auth/login](https://dummyjson.com/auth/me) in the URL field\n    \n5. Click on the \"Send\" button\n    \n\n**Expected result:**\n\nReceived status 400 Bad Request  \nMessage: \"Username and password required"
+									},
+									"response": []
+								},
+								{
+									"name": "GET trying to login with an invalid token",
+									"request": {
+										"auth": {
+											"type": "bearer",
+											"bearer": [
+												{
+													"key": "token",
+													"value": "123",
+													"type": "string"
+												}
+											]
+										},
+										"method": "GET",
+										"header": [],
+										"url": {
+											"raw": "https://dummyjson.com/auth/me",
+											"protocol": "https",
+											"host": [
+												"dummyjson",
+												"com"
+											],
+											"path": [
+												"auth",
+												"me"
+											]
+										},
+										"description": "**ID:** TC_GET_002\n\n**Summary:** Login via an invalid token  \n**Steps:**\n\n1. Open Postman\n    \n2. Click on the \"GET\" tab\n    \n3. Enter [https://dummyjson.com/auth/me](https://dummyjson.com/auth/me) in the URL field\n    \n4. Open \"Auth\" tab\n    \n5. In the \"Auth Type\" select \"Bearer Token\"\n    \n6. Enter \"123\" in the \"Bearer Token\" field\n    \n7. Click on the \"Send\" button\n    \n\n**Expected result:**\n\nReceived status 401 Unauthorized\n\nMessage: \"Invalid/Expired Token!\""
+									},
+									"response": []
+								}
+							]
+						},
+						{
+							"name": "Positive tests",
+							"item": [
+								{
+									"name": "POST login with valid credentials (positive)",
+									"request": {
+										"auth": {
+											"type": "noauth"
+										},
+										"method": "POST",
+										"header": [],
+										"body": {
+											"mode": "raw",
+											"raw": "  {\n    \"username\": \"emilys\",\n    \"password\": \"emilyspass\"\n  }\n  ",
+											"options": {
+												"raw": {
+													"language": "json"
+												}
+											}
+										},
+										"url": {
+											"raw": "https://dummyjson.com/auth/login",
+											"protocol": "https",
+											"host": [
+												"dummyjson",
+												"com"
+											],
+											"path": [
+												"auth",
+												"login"
+											]
+										},
+										"description": "**ID:** TC_POST_002\n\n**Summary:** Login with valid credentials  \n**Steps:**\n\n1. Open Postman\n    \n2. Click on the \"GET\" tab\n    \n3. Select the \"POST\" method\n    \n4. Enter [https://dummyjson.com/auth/login](https://dummyjson.com/auth/me) in the URL field\n    \n5. Click on the \"Send\" button\n    \n\n**Expected result:**\n\nReceived status 200 OK request\n\nReceived token"
+									},
+									"response": []
+								},
+								{
+									"name": "POST login with token (positive)",
+									"protocolProfileBehavior": {
+										"disableBodyPruning": true
+									},
+									"request": {
+										"auth": {
+											"type": "bearer",
+											"bearer": [
+												{
+													"key": "token",
+													"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwidXNlcm5hbWUiOiJlbWlseXMiLCJlbWFpbCI6ImVtaWx5LmpvaG5zb25AeC5kdW1teWpzb24uY29tIiwiZmlyc3ROYW1lIjoiRW1pbHkiLCJsYXN0TmFtZSI6IkpvaG5zb24iLCJnZW5kZXIiOiJmZW1hbGUiLCJpbWFnZSI6Imh0dHBzOi8vZHVtbXlqc29uLmNvbS9pY29uL2VtaWx5cy8xMjgiLCJpYXQiOjE3NDQ3MzI1NzIsImV4cCI6MTc0NDczNjE3Mn0.B0RMmONDpJyZvwlhDmUUq0W8MYEIr-SwaI0Q9dweKB0",
+													"type": "string"
+												}
+											]
+										},
+										"method": "GET",
+										"header": [],
+										"body": {
+											"mode": "raw",
+											"raw": "",
+											"options": {
+												"raw": {
+													"language": "json"
+												}
+											}
+										},
+										"url": {
+											"raw": "https://dummyjson.com/auth/me",
+											"protocol": "https",
+											"host": [
+												"dummyjson",
+												"com"
+											],
+											"path": [
+												"auth",
+												"me"
+											]
+										},
+										"description": "**ID:** TC_GET_001\n\n**Summary:** Login via token  \n**Steps:**\n\n1. Open Postman\n    \n2. Click on the \"GET\" tab\n    \n3. Enter [https://dummyjson.com/auth/me](https://dummyjson.com/auth/me) in the URL field\n    \n4. Open \"Auth\" tab\n    \n5. In the \"Auth Type\" select \"Bearer Token\"\n    \n6. Paste the token from the TC_POST_001\n    \n7. Click on the \"Send\" button\n    \n\n**Expected result:**\n\nReceived status 200 OK request"
+									},
+									"response": []
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	]
+}
