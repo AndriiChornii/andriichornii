@@ -32,15 +32,13 @@ Collection: `dummy_api_tests.postman_collection.json`
 2. Import collection via **Import** button
 3. Select the test case and click on the **Send** button
 
----
 
-## 🚀 Author
+### In case you don't wan't install and run all of the cases, you can just check how my cases looks like om the screenshots: 
 
-# Any case, if you don't wanna install and run all of the cases, you can just check how my cases looks like here: 
-This is Dummy JSON collection
+##### This is Dummy JSON collection
 ![Dummy JSON](https://github.com/AndriiChornii/andriichornii/blob/main/assets/DummyJSON%20API%20tests.png)
 
-This is reqres.in collection
+#### This is reqres.in collection
 ![reqres.in](https://github.com/AndriiChornii/andriichornii/blob/main/assets/reqres.in%20API%20tests.png)
 
 
