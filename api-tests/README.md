@@ -14,11 +14,13 @@ Collection: `regres_api_tests.postman_collection.json`
   - Validity of email/password
   - Entering of arrays, objects, null, SQL injections 
 
-## 🔹 2. Dummy API (Products)
+## 🔹 2. Dummy API (Products, Auth)
 
 Collection: `dummy_api_tests.postman_collection.json`
 
 **What covered with tests:**
+- Authentification via credentials and token
+- Token and credentials tests (positive and negative)
 - CRUD operations with products
 - Incorrect data types
 - Non existing ID
@@ -26,7 +28,7 @@ Collection: `dummy_api_tests.postman_collection.json`
 
 ## ⚙️ How to use
 
-1. Install [Postman](https://www.postman.com/) Install 
+1. Install [![Postman](https://img.shields.io/badge/Postman-F5F5F5?style=for-the-badge&logo=Postman)](https://www.postman.com/)
 2. Import collection via **Import** button
 3. Select the test case and click on the **Send** button
 
