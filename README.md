@@ -45,15 +45,16 @@ Gonna leave this part of code, cauze it was as example on the video, maybe thi c
 -->
 
 ## Examples of my created test documentation: 
-P.S: all documentation listed below is used in the <a href="https://walkme.dog">Walkme App</a> project
 
-[![Test Plan Badge](https://img.shields.io/badge/🔘Test%20Plan-0C2B5E?style=for-the-badge&logo=Testomatio)](https://github.com/AndriiChornii/test-plan)
+[![Test Plan Badge](https://img.shields.io/badge/🔘Test%20Plan-0C2B5E?style=for-the-badge&logo=Testomatio)](https://github.com/AndriiChornii/test-plan) <a href="https://walkme.dog">Walkme App</a> project
 
-[![Test Case Badge](https://img.shields.io/badge/🔘Test%20Case-259527?style=for-the-badge&logo=Testomatio)](https://github.com/AndriiChornii/test-case)
+[![Test Case Badge](https://img.shields.io/badge/🔘Test%20Case-259527?style=for-the-badge&logo=Testomatio)](https://github.com/AndriiChornii/test-case) <a href="https://walkme.dog">Walkme App</a> project
 
-[![Checklist Badge](https://img.shields.io/badge/🔘Checklist-2AA2E3?style=for-the-badge&logo=Testomatio)](https://github.com/AndriiChornii/checklist)
+[![Checklist Badge](https://img.shields.io/badge/🔘Checklist-2AA2E3?style=for-the-badge&logo=Testomatio)](https://github.com/AndriiChornii/checklist) <a href="https://walkme.dog">Walkme App</a> project
 
-[![Bug Report Badge](https://img.shields.io/badge/🔘Bug%20Report-EA3926?style=for-the-badge&logo=Testomatio)](https://github.com/AndriiChornii/bug-report)
+[![Bug Report Badge](https://img.shields.io/badge/🔘Bug%20Report-EA3926?style=for-the-badge&logo=Testomatio)](https://github.com/AndriiChornii/bug-report) <a href="https://walkme.dog">Walkme App</a> project
+
+[![API testing](https://img.shields.io/badge/🔘API%20Tests-FF5600?style=for-the-badge&logo=Testomatio)](https://github.com/AndriiChornii/andriichornii/blob/api-tests/api-tests/README.md) 🏋️‍♀️🏋️‍♀️🏋️‍♀️
 
 <!--
 <p>
