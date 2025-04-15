@@ -28,7 +28,7 @@ Collection: `dummy_api_tests.postman_collection.json`
 
 ## ⚙️ How to use
 
-1. Install [Postman](https://www.postman.com/) 
+1. Install [![Postman](https://img.shields.io/badge/Postman-F5F5F5?style=for-the-badge&logo=Postman)](https://www.postman.com/)
 2. Import collection via **Import** button
 3. Select the test case and click on the **Send** button
 
