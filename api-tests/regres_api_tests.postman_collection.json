@@ -1,0 +1,735 @@
+{
+	"info": {
+		"_postman_id": "fdba2681-cad2-4094-aa94-b1a6d66cf9cc",
+		"name": "reqres.in API Testing",
+		"description": "This is a testing collection to train with the API testing using reqres.in as source",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "44029314"
+	},
+	"item": [
+		{
+			"name": "Users",
+			"item": [
+				{
+					"name": "GET all users",
+					"request": {
+						"auth": {
+							"type": "noauth"
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://reqres.in/api/users?page=2",
+							"protocol": "https",
+							"host": [
+								"reqres",
+								"in"
+							],
+							"path": [
+								"api",
+								"users"
+							],
+							"query": [
+								{
+									"key": "page",
+									"value": "2"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GET user by id",
+					"request": {
+						"auth": {
+							"type": "noauth"
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://reqres.in/api/users/2",
+							"protocol": "https",
+							"host": [
+								"reqres",
+								"in"
+							],
+							"path": [
+								"api",
+								"users",
+								"2"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "POST create user",
+					"request": {
+						"auth": {
+							"type": "noauth"
+						},
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n  \"name\": \"andrii\",\n  \"job\": \"qa engineer\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://reqres.in/api/users",
+							"protocol": "https",
+							"host": [
+								"reqres",
+								"in"
+							],
+							"path": [
+								"api",
+								"users"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "PUT update user",
+					"request": {
+						"auth": {
+							"type": "noauth"
+						},
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n  \"name\": \"andrii\",\n  \"job\": \"qa with knowledge of API testing\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://reqres.in/api/users/2",
+							"protocol": "https",
+							"host": [
+								"reqres",
+								"in"
+							],
+							"path": [
+								"api",
+								"users",
+								"2"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "PATCH Partial Update",
+					"request": {
+						"auth": {
+							"type": "noauth"
+						},
+						"method": "PATCH",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n  \"job\": \"quality assurance engineer with knowledge of API testing\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://reqres.in/api/users/2",
+							"protocol": "https",
+							"host": [
+								"reqres",
+								"in"
+							],
+							"path": [
+								"api",
+								"users",
+								"2"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "DELETE user",
+					"request": {
+						"auth": {
+							"type": "noauth"
+						},
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "https://reqres.in/api/users/2",
+							"protocol": "https",
+							"host": [
+								"reqres",
+								"in"
+							],
+							"path": [
+								"api",
+								"users",
+								"2"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Auth",
+			"item": [
+				{
+					"name": "POST Register (valid)",
+					"request": {
+						"auth": {
+							"type": "noauth"
+						},
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n  \"email\": \"a4ornii@gmail.com\",\n  \"password\": \"test1111\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://reqres.in/api/register",
+							"protocol": "https",
+							"host": [
+								"reqres",
+								"in"
+							],
+							"path": [
+								"api",
+								"register"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "POST Login (valid)",
+					"request": {
+						"auth": {
+							"type": "noauth"
+						},
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n  \"email\": \"eve.holt@reqres.in\",\n  \"password\": \"cityslicka\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://reqres.in/api/login",
+							"protocol": "https",
+							"host": [
+								"reqres",
+								"in"
+							],
+							"path": [
+								"api",
+								"login"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Support",
+			"item": [
+				{
+					"name": "GET List of Colors",
+					"request": {
+						"auth": {
+							"type": "noauth"
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://reqres.in/api/unknown",
+							"protocol": "https",
+							"host": [
+								"reqres",
+								"in"
+							],
+							"path": [
+								"api",
+								"unknown"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GET Single Color",
+					"request": {
+						"auth": {
+							"type": "noauth"
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://reqres.in/api/unknown/2",
+							"protocol": "https",
+							"host": [
+								"reqres",
+								"in"
+							],
+							"path": [
+								"api",
+								"unknown",
+								"2"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Tests",
+			"item": [
+				{
+					"name": "[Users]PATCH Partial Update (positive)",
+					"request": {
+						"auth": {
+							"type": "noauth"
+						},
+						"method": "PATCH",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n  \"job\": \"quality assurance engineer with knowledge of API testing\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://reqres.in/api/users/2",
+							"protocol": "https",
+							"host": [
+								"reqres",
+								"in"
+							],
+							"path": [
+								"api",
+								"users",
+								"2"
+							]
+						},
+						"description": "**ID:** TC_PATCH_001\n\n**Summary:** Partially update the user data  \n**Steps:**\n\n1. Open Postman\n    \n2. Click on the \"GET\" tab\n    \n3. Select \"PATH\" method\n    \n4. Enter [https://reqres.in/api/users/2](https://reqres.in/api/users/2) in the URL field\n    \n5. Click on the \"Send\" button\n    \n\n**Expected result:**\n\nReceived status 200 Ok  \nThe response contains the following fields:\n\n\"job\" = \"quality assurance engineer with knowledge of API testing\"\n\n\"updated at\" - with actual date\n\n\\*_Attachments:__\\*\n\n<img src=\"https://content.pstmn.io/e89565a9-6eb4-436b-87a4-304f007707b9/U2NyZWVuc2hvdCAyMDI1LTA0LTE1IGF0IDAyLjM4LjI4LnBuZw==\">"
+					},
+					"response": []
+				},
+				{
+					"name": "[Users]DELETE user (positive)",
+					"request": {
+						"auth": {
+							"type": "noauth"
+						},
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "https://reqres.in/api/users/2",
+							"protocol": "https",
+							"host": [
+								"reqres",
+								"in"
+							],
+							"path": [
+								"api",
+								"users",
+								"2"
+							]
+						},
+						"description": "**ID:** TC_DELETE_001\n\n**Summary:** Delete user  \n**Steps:**\n\n1. Open Postman\n    \n2. Click on the \"GET\" tab\n    \n3. Select \"DELETE\" method\n    \n4. Enter [https://reqres.in/api/users/2](https://reqres.in/api/users/2) in the URL field\n    \n5. Click on the \"Send\" button\n    \n\n**Expected result:**\n\nReceived status 204 No Content  \nThe response body is empty\n\n\\*_Attachments:__\\*  \n\n<img src=\"https://content.pstmn.io/e902319b-c81c-4f04-8aa1-448f4d2b7462/U2NyZWVuc2hvdCAyMDI1LTA0LTE1IGF0IDAyLjQyLjE5LnBuZw==\" alt=\"\">"
+					},
+					"response": []
+				},
+				{
+					"name": "[Users]PUT update user (positive)",
+					"request": {
+						"auth": {
+							"type": "noauth"
+						},
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n  \"name\": \"andrii\",\n  \"job\": \"qa with knowledge of API testing\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://reqres.in/api/users/2",
+							"protocol": "https",
+							"host": [
+								"reqres",
+								"in"
+							],
+							"path": [
+								"api",
+								"users",
+								"2"
+							]
+						},
+						"description": "**ID:** TC_PUT_001\n\n**Summary:** Update the user  \n**Steps:**\n\n1. Open Postman\n    \n2. Click on the \"GET\" tab\n    \n3. Select \"PUT\" method\n    \n4. Enter [https://reqres.in/api/users/2](https://reqres.in/api/users/2) in the URL field\n    \n5. Click on the \"Send\" button\n    \n\n**Expected result:**\n\nReceived status 200 Ok  \nThe response contains the following fields:  \n\"name\" = \"andrii\"\n\n\"job\" = \"qa with knowledge of API testing\"\n\n\"id\" - with correct id\n\n\"updated at\" - with actual date\n\n\\*_Attachments:__\\*\n\n<img src=\"https://content.pstmn.io/c371e259-aa9e-4800-8659-193c30255a10/U2NyZWVuc2hvdCAyMDI1LTA0LTE1IGF0IDAyLjM1LjE2LnBuZw==\">"
+					},
+					"response": []
+				},
+				{
+					"name": "[Users]POST create user (negative)",
+					"request": {
+						"auth": {
+							"type": "noauth"
+						},
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n  invalid: data\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://reqres.in/api/users",
+							"protocol": "https",
+							"host": [
+								"reqres",
+								"in"
+							],
+							"path": [
+								"api",
+								"users"
+							]
+						},
+						"description": "**ID:** TC_POST_002\n\n**Summary:** Create a user with an invalid body  \n**Steps:**\n\n1. Open Postman\n    \n2. Click on the \"GET\" tab\n    \n3. Select \"POST\" method\n    \n4. Enter [https://reqres.in/api/users](https://reqres.in/api/users) in the URL field\n    \n5. Click on the \"Send\" button\n    \n\n**Expected result:**\n\nReceived status 400 Bad request\n\n<img src=\"https://content.pstmn.io/044ee66f-809d-40e7-bcce-d9c722149e51/U2NyZWVuc2hvdCAyMDI1LTA0LTE1IGF0IDAyLjIyLjQ2LnBuZw==\">\n\n\\*_Attachments:__\\*"
+					},
+					"response": []
+				},
+				{
+					"name": "[Users]POST create user (positive)",
+					"request": {
+						"auth": {
+							"type": "noauth"
+						},
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n  \"name\": \"andrii\",\n  \"job\": \"qa engineer\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://reqres.in/api/users",
+							"protocol": "https",
+							"host": [
+								"reqres",
+								"in"
+							],
+							"path": [
+								"api",
+								"users"
+							]
+						},
+						"description": "**ID:** TC_POST_001\n\n**Summary:** Successfully creating a new user  \n**Steps:**\n\n1. Open Postman\n    \n2. Click on the \"GET\" tab\n    \n3. Select \"POST\" method\n    \n4. Enter [https://reqres.in/api/users](https://reqres.in/api/users) in the URL field\n    \n5. Click on the \"Send\" button\n    \n\n**Expected result:**\n\nReceived status 201 Created  \nThe response contains the following fields:  \n\"job\" = \"qa engineer\"\n\n\"name\" = \"andrii\"\n\n\"id\"\n\n\"created at\"\n\n\\*_Attachments:__\\*\n\n<img src=\"https://content.pstmn.io/715ebe72-b0c7-4d48-9247-54dbfa6153b6/U2NyZWVuc2hvdCAyMDI1LTA0LTE1IGF0IDAyLjEyLjA0LnBuZw==\">"
+					},
+					"response": []
+				},
+				{
+					"name": "[Users]GET user by id (negative)",
+					"request": {
+						"auth": {
+							"type": "noauth"
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://reqres.in/api/users/23",
+							"protocol": "https",
+							"host": [
+								"reqres",
+								"in"
+							],
+							"path": [
+								"api",
+								"users",
+								"23"
+							]
+						},
+						"description": "**ID:** TC_GET_003\n\n**Summary:** Get single user not found  \n**Steps:**\n\n1. Open Postman\n    \n2. In the tab \"GET\" enter [https://reqres.in/api/users/23](https://reqres.in/api/users/23)\n    \n3. Click on the \"Send\" button\n    \n\n**Expected result:**\n\nReceived status 404 Not Found\n\nThe body contains an empty JSON body\n\n\\*_Attachments:__\\*_\n\n<img src=\"https://content.pstmn.io/a32a2f8a-4f64-47b8-9e58-fa7f3cc6909c/U2NyZWVuc2hvdCAyMDI1LTA0LTE1IGF0IDAyLjI2LjMzLnBuZw==\" alt=\"\">"
+					},
+					"response": []
+				},
+				{
+					"name": "[Users]GET user by id (positive)",
+					"request": {
+						"auth": {
+							"type": "noauth"
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://reqres.in/api/users/2",
+							"protocol": "https",
+							"host": [
+								"reqres",
+								"in"
+							],
+							"path": [
+								"api",
+								"users",
+								"2"
+							]
+						},
+						"description": "**ID:** TC_GET_002 Get Single User\n\n**Name:** Get Single User  \n**Steps:**\n\n1. Open Postman\n    \n2. In the tab \"GET\" enter [https://reqres.in/api/users/2](https://reqres.in/api/users/2)\n    \n3. Click on the \"Send\" button\n    \n\n**Expected result:**\n\nReceived status 200 ok\n\nThe body contains the user with the user id = 2  \nThe body of the response includes \"data\" objects as massive\n\nThe number of the users is 1\n\nJSON-body of the answer is correct, and the structure response to the specification\n\nThe fields: id, email, first_name, last_name, and avatar are included\n\n\\*_Attachments:__\\*_\n\n<img src=\"https://content.pstmn.io/e57f0cbf-f9bc-4fd4-a2ae-9c9f3d34a286/U2NyZWVuc2hvdCAyMDI1LTA0LTE1IGF0IDAyLjA0LjE0LnBuZw==\">"
+					},
+					"response": []
+				},
+				{
+					"name": "[Users]Get all users (positive)",
+					"request": {
+						"auth": {
+							"type": "noauth"
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://reqres.in/api/users?page=2",
+							"protocol": "https",
+							"host": [
+								"reqres",
+								"in"
+							],
+							"path": [
+								"api",
+								"users"
+							],
+							"query": [
+								{
+									"key": "page",
+									"value": "2"
+								}
+							]
+						},
+						"description": "**ID:** TC_GET_001\n\n**Name:** Successfully receiving users list  \n**Steps:**\n\n1. Open Postman\n    \n2. In the tab \"GET\" enter [https://reqres.in/api/user?page=2](https://reqres.in/api/user?page=2)\n    \n3. Click on the \"Send\" button\n    \n\n**Expected result:**\n\nReceived status 200 ok  \nThe body of the response includes \"data\" objects as massive\n\nThe number of the users is 6\n\nJSON-body of the answer is correct, and the structure response to the specification\n\nThe fields: id, email, first_name, last_name, and avatar are included\n\n\\*_Attachments:__\\*_\n\n<img src=\"https://content.pstmn.io/2c1e5732-afe9-46f6-8b5a-66485a79744d/U2NyZWVuc2hvdCAyMDI1LTA0LTE1IGF0IDAxLjIwLjUyLnBuZw==\">"
+					},
+					"response": []
+				},
+				{
+					"name": "[Auth]POST Register (valid)",
+					"request": {
+						"auth": {
+							"type": "noauth"
+						},
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n  \"email\": \"eve.holt@reqres.in\",\n  \"password\": \"pistol\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://reqres.in/api/register",
+							"protocol": "https",
+							"host": [
+								"reqres",
+								"in"
+							],
+							"path": [
+								"api",
+								"register"
+							]
+						},
+						"description": "**ID:** TC_POST_003\n\n**Summary:** Successful Registration  \n**Steps:**\n\n1. Open Postman\n    \n2. Click on the \"GET\" tab\n    \n3. Select \"POST\" method\n    \n4. Enter [https://reqres.in/api/register](https://reqres.in/api/register) in the URL field\n    \n5. Click on the \"Send\" button\n    \n\n**Expected result:**\n\nReceived status 200 OK request  \nField with a new user id\n\nField with a current user token\n\n\\*_Attachments:__\\*_\n\n<img src=\"https://content.pstmn.io/164c89eb-25d9-47de-93d0-1761ec864963/U2NyZWVuc2hvdCAyMDI1LTA0LTE1IGF0IDAyLjU5LjMzLnBuZw==\">"
+					},
+					"response": []
+				},
+				{
+					"name": "[Auth]POST Register (invalid)",
+					"request": {
+						"auth": {
+							"type": "noauth"
+						},
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n  \"email\": \"a4ornii@gmail.com\",\n  \"password\": \"test1111\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://reqres.in/api/register",
+							"protocol": "https",
+							"host": [
+								"reqres",
+								"in"
+							],
+							"path": [
+								"api",
+								"register"
+							]
+						},
+						"description": "**ID:** TC_POST_005\n\n**Summary:** Failed Registration  \n**Steps:**\n\n1. Open Postman\n    \n2. Click on the \"GET\" tab\n    \n3. Select \"POST\" method\n    \n4. Enter [https://reqres.in/api/register](https://reqres.in/api/register) in the URL field\n    \n5. Click on the \"Send\" button\n    \n\n**Expected result:**\n\nReceived status 400 Bad Request  \nField with text: \"error\": \"Note: Only defined users succeed registration\"\n\n\\*_Attachments:__\\*_\n\n<img src=\"https://content.pstmn.io/37d1b02b-0036-444f-81fb-cd9180c74199/U2NyZWVuc2hvdCAyMDI1LTA0LTE1IGF0IDAzLjA1LjUyLnBuZw==\">"
+					},
+					"response": []
+				},
+				{
+					"name": "[Auth]POST Register (invalid 2)",
+					"request": {
+						"auth": {
+							"type": "noauth"
+						},
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n  \"email\": \"sydney@fife\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://reqres.in/api/register",
+							"protocol": "https",
+							"host": [
+								"reqres",
+								"in"
+							],
+							"path": [
+								"api",
+								"register"
+							]
+						},
+						"description": "**ID:** TC_POST_006\n\n**Summary:** Failed Registration  \n**Steps:**\n\n1. Open Postman\n    \n2. Click on the \"GET\" tab\n    \n3. Select \"POST\" method\n    \n4. Enter [https://reqres.in/api/register](https://reqres.in/api/register) in the URL field\n    \n5. Click on the \"Send\" button\n    \n\n**Expected result:**\n\nReceived status 400 Bad Request  \nField with text: \"error\": \"Missing password\"\n\n\\*_Attachments:__\\*_\n\n<img src=\"https://content.pstmn.io/f6b5abec-c91e-47d6-b4e5-6288650f6b20/U2NyZWVuc2hvdCAyMDI1LTA0LTE1IGF0IDAzLjEzLjU3LnBuZw==\" alt=\"\">"
+					},
+					"response": []
+				},
+				{
+					"name": "[Auth]POST Login (valid)",
+					"request": {
+						"auth": {
+							"type": "noauth"
+						},
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n  \"email\": \"eve.holt@reqres.in\",\n  \"password\": \"cityslicka\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://reqres.in/api/login",
+							"protocol": "https",
+							"host": [
+								"reqres",
+								"in"
+							],
+							"path": [
+								"api",
+								"login"
+							]
+						},
+						"description": "**ID:** TC_POST_004\n\n**Summary:** Successful Login  \n**Steps:**\n\n1. Open Postman\n    \n2. Click on the \"GET\" tab\n    \n3. Select \"POST\" method\n    \n4. Enter [https://reqres.in/api/login](https://reqres.in/api/register) in the URL field\n    \n5. Click on the \"Send\" button\n    \n\n**Expected result:**\n\nReceived status 200 OK request  \nField with a current user token\n\n\\*_Attachments:  \n\\*\n\n<img src=\"https://content.pstmn.io/87f545d2-bec3-4e0e-a19f-d949b7a4cc19/U2NyZWVuc2hvdCAyMDI1LTA0LTE1IGF0IDAzLjA0LjEyLnBuZw==\" alt=\"\">"
+					},
+					"response": []
+				},
+				{
+					"name": "[Support]GET List of Colors Copy",
+					"request": {
+						"auth": {
+							"type": "noauth"
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://reqres.in/api/unknown",
+							"protocol": "https",
+							"host": [
+								"reqres",
+								"in"
+							],
+							"path": [
+								"api",
+								"unknown"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "[Support]GET Single Color Copy",
+					"request": {
+						"auth": {
+							"type": "noauth"
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://reqres.in/api/unknown/2",
+							"protocol": "https",
+							"host": [
+								"reqres",
+								"in"
+							],
+							"path": [
+								"api",
+								"unknown",
+								"2"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}
